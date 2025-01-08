@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Alterações nas Cores de Fundo</title>
+</head>
+<body>
+    <main>
+            <h1>Altenador de cores</h1>
+<button class="green" onclick="trocaCor('green')">Verde</button>
+<button class="blue" onclick="trocaCor('blue')" >Azul</button>
+<button class="yellow" onclick="trocaCor('yellow')">Amarelo</button>
+<button class="red" onclick="trocaCor('red')">Vermelho</button>
+<Button class="random" onclick="corAleatoria()">Cor Aleatória</Button>
+<br>
+<input placeholder="Digite o #HEX ou o nome da cor " type="text" class="input-color" onclick="corPersonalizada()">
+<button class="aplicar-cor" onclick="corPersonalizada()">Aplicar Cor</button>
+<input type="color" onchange="trocaCor(this.value)">
+<br>
+<label>
+   <h2>Escolher Imagem</h2> 
+<input type="file" accept="Imagem/*" onchange="selecionarImagem(this.files[0])">
+</label>
+</main>
+</body>
+<script src="scripts.js"></script>
+</html>

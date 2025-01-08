@@ -1,0 +1,81 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+display: flex;
+align-items: center;
+justify-items: center;
+height: 100vh;
+background-color: rgba(71, 9, 240, 0.815);
+background-position: center;
+background-size: cover;
+}
+
+main{
+text-align: center;
+background-color: rgba(255, 255, 255, 0.6);
+border-radius: 10px;
+max-width: 80%;
+padding: 20px;
+margin: auto;
+}
+
+button, input [type="color"], label {
+    cursor: pointer;
+}
+
+button, input[type="text"] {
+margin: 5px;
+padding: 10px;
+font-size: 16px;
+outline: none;
+}
+
+input[type="file"]{
+    display: none;
+}
+
+label{
+border: 1px solid rgb(10, 10, 10);
+display: inline-block;
+padding: 6px 12px;
+border-radius: 4px;
+font-size: 14px;
+margin-top: 10px;
+background-color: white;
+}
+
+.green{
+    background-color: rgb(14, 235, 14);
+    color: rgb(10, 10, 10);
+}
+
+.blue{
+    background-color: rgb(9, 9, 236);
+    color: rgb(10, 10, 10);
+}
+
+.yellow{
+    background-color: rgb(240, 240, 35);
+    color: rgb(10, 10, 10);
+}
+
+.red{
+background-color: rgb(238, 10, 10);
+color: rgb(10, 10, 10);
+}
+
+.random{
+background-color: aqua;
+color: rgb(10, 10, 10);
+}
+
+
+h1 {
+    color: rgb(10, 10, 10);
+    padding: 5px;
+}
