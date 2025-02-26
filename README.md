@@ -26,9 +26,9 @@ Upload de Imagem: Permite usar uma imagem como plano de fundo
 
 <h2> 🛠️ Tecnologias </h2>
 
-<h4> HTML5 <h4>
-<h4> CSS3 <h4>
-<h4> JavaScript (Vanilla) <h4>
+<h4> HTML5 </h4>
+<h4> CSS3 </h4>
+<h4> JavaScript (Vanilla) </h4>
 
 <h2> 👩‍💻 Autora  </h2>
 
