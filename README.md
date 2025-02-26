@@ -3,7 +3,7 @@
 Um aplicativo web interativo que permite aos usuários alterar dinamicamente a cor de fundo da página ou escolher uma imagem personalizada como plano de fundo.
 <br>
 
-![Descrição da imagem](https://github.com/danielly-pedrini/Projeto-alteracao-de-cores/blob/main/assets/projeto%20altenador%20de%20cores.PNG?raw=true )
+![Imagem do projeto](https://github.com/danielly-pedrini/Projeto-alteracao-de-cores/blob/main/assets/projeto%20altenador%20de%20cores.PNG?raw=true )
 
 <h2> 📋 Descrição </h2>
 <br>
